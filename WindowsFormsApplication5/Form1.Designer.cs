@@ -28,10 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Кено));
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.nova = new System.Windows.Forms.ToolStripMenuItem();
+            this.инфоToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.историјаНаИграњаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.избериСлучајноToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.броевиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.броевиToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.броевиToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.броевиToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.броевиToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.броевиToolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.броевиToolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
+            this.броевиToolStripMenuItem7 = new System.Windows.Forms.ToolStripMenuItem();
+            this.броевиToolStripMenuItem8 = new System.Windows.Forms.ToolStripMenuItem();
+            this.затвориToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.button72 = new System.Windows.Forms.Button();
             this.button71 = new System.Windows.Forms.Button();
             this.button70 = new System.Windows.Forms.Button();
@@ -114,18 +129,75 @@
             this.button79 = new System.Windows.Forms.Button();
             this.button80 = new System.Windows.Forms.Button();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label11 = new System.Windows.Forms.Label();
+            this.d0 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.isp = new System.Windows.Forms.Label();
+            this.pogodoci = new System.Windows.Forms.Label();
+            this.izbrani = new System.Windows.Forms.Label();
+            this.k12 = new System.Windows.Forms.Label();
+            this.k11 = new System.Windows.Forms.Label();
+            this.k10 = new System.Windows.Forms.Label();
+            this.k9 = new System.Windows.Forms.Label();
+            this.k8 = new System.Windows.Forms.Label();
+            this.k7 = new System.Windows.Forms.Label();
+            this.k6 = new System.Windows.Forms.Label();
+            this.k4 = new System.Windows.Forms.Label();
+            this.k5 = new System.Windows.Forms.Label();
+            this.d12 = new System.Windows.Forms.Label();
+            this.d11 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.d10 = new System.Windows.Forms.Label();
+            this.d9 = new System.Windows.Forms.Label();
+            this.d8 = new System.Windows.Forms.Label();
+            this.d7 = new System.Windows.Forms.Label();
+            this.d6 = new System.Windows.Forms.Label();
+            this.d5 = new System.Windows.Forms.Label();
+            this.d4 = new System.Windows.Forms.Label();
+            this.k0 = new System.Windows.Forms.Label();
+            this.p12 = new System.Windows.Forms.Label();
+            this.p11 = new System.Windows.Forms.Label();
+            this.p10 = new System.Windows.Forms.Label();
+            this.p9 = new System.Windows.Forms.Label();
+            this.p8 = new System.Windows.Forms.Label();
+            this.p7 = new System.Windows.Forms.Label();
+            this.p6 = new System.Windows.Forms.Label();
+            this.p5 = new System.Windows.Forms.Label();
+            this.p4 = new System.Windows.Forms.Label();
+            this.p0 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.button81 = new System.Windows.Forms.Button();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.button82 = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.button83 = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.button84 = new System.Windows.Forms.Button();
+            this.button85 = new System.Windows.Forms.Button();
+            this.label12 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // flowLayoutPanel3
             // 
             this.flowLayoutPanel3.BackColor = System.Drawing.Color.Transparent;
-            this.flowLayoutPanel3.Location = new System.Drawing.Point(431, 63);
+            this.flowLayoutPanel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(486, 77);
             this.flowLayoutPanel3.Margin = new System.Windows.Forms.Padding(0);
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(123, 318);
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(132, 353);
             this.flowLayoutPanel3.TabIndex = 5;
             // 
             // fileSystemWatcher1
@@ -136,11 +208,124 @@
             // menuStrip1
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.nova,
+            this.инфоToolStripMenuItem,
+            this.историјаНаИграњаToolStripMenuItem,
+            this.избериСлучајноToolStripMenuItem,
+            this.затвориToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(969, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1180, 28);
             this.menuStrip1.TabIndex = 4;
             this.menuStrip1.Text = "menuStrip1";
+            // 
+            // nova
+            // 
+            this.nova.Enabled = false;
+            this.nova.Name = "nova";
+            this.nova.Size = new System.Drawing.Size(93, 24);
+            this.nova.Text = "Нова игра";
+            this.nova.Click += new System.EventHandler(this.новаИграToolStripMenuItem_Click_1);
+            // 
+            // инфоToolStripMenuItem
+            // 
+            this.инфоToolStripMenuItem.Name = "инфоToolStripMenuItem";
+            this.инфоToolStripMenuItem.Size = new System.Drawing.Size(60, 24);
+            this.инфоToolStripMenuItem.Text = "Инфо";
+            this.инфоToolStripMenuItem.Click += new System.EventHandler(this.инфоToolStripMenuItem_Click);
+            // 
+            // историјаНаИграњаToolStripMenuItem
+            // 
+            this.историјаНаИграњаToolStripMenuItem.Name = "историјаНаИграњаToolStripMenuItem";
+            this.историјаНаИграњаToolStripMenuItem.Size = new System.Drawing.Size(205, 24);
+            this.историјаНаИграњаToolStripMenuItem.Text = "Податоци на извлекувања";
+            this.историјаНаИграњаToolStripMenuItem.Click += new System.EventHandler(this.историјаНаИграњаToolStripMenuItem_Click);
+            // 
+            // избериСлучајноToolStripMenuItem
+            // 
+            this.избериСлучајноToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.броевиToolStripMenuItem,
+            this.броевиToolStripMenuItem1,
+            this.броевиToolStripMenuItem2,
+            this.броевиToolStripMenuItem3,
+            this.броевиToolStripMenuItem4,
+            this.броевиToolStripMenuItem5,
+            this.броевиToolStripMenuItem6,
+            this.броевиToolStripMenuItem7,
+            this.броевиToolStripMenuItem8});
+            this.избериСлучајноToolStripMenuItem.Name = "избериСлучајноToolStripMenuItem";
+            this.избериСлучајноToolStripMenuItem.Size = new System.Drawing.Size(138, 24);
+            this.избериСлучајноToolStripMenuItem.Text = "Избери случајно";
+            // 
+            // броевиToolStripMenuItem
+            // 
+            this.броевиToolStripMenuItem.Name = "броевиToolStripMenuItem";
+            this.броевиToolStripMenuItem.Size = new System.Drawing.Size(156, 26);
+            this.броевиToolStripMenuItem.Text = "4 Броеви";
+            this.броевиToolStripMenuItem.Click += new System.EventHandler(this.броевиToolStripMenuItem_Click);
+            // 
+            // броевиToolStripMenuItem1
+            // 
+            this.броевиToolStripMenuItem1.Name = "броевиToolStripMenuItem1";
+            this.броевиToolStripMenuItem1.Size = new System.Drawing.Size(156, 26);
+            this.броевиToolStripMenuItem1.Text = "5 Броеви";
+            this.броевиToolStripMenuItem1.Click += new System.EventHandler(this.броевиToolStripMenuItem1_Click);
+            // 
+            // броевиToolStripMenuItem2
+            // 
+            this.броевиToolStripMenuItem2.Name = "броевиToolStripMenuItem2";
+            this.броевиToolStripMenuItem2.Size = new System.Drawing.Size(156, 26);
+            this.броевиToolStripMenuItem2.Text = "6 Броеви";
+            // 
+            // броевиToolStripMenuItem3
+            // 
+            this.броевиToolStripMenuItem3.Name = "броевиToolStripMenuItem3";
+            this.броевиToolStripMenuItem3.Size = new System.Drawing.Size(156, 26);
+            this.броевиToolStripMenuItem3.Text = "7 Броеви";
+            this.броевиToolStripMenuItem3.Click += new System.EventHandler(this.броевиToolStripMenuItem3_Click);
+            // 
+            // броевиToolStripMenuItem4
+            // 
+            this.броевиToolStripMenuItem4.Name = "броевиToolStripMenuItem4";
+            this.броевиToolStripMenuItem4.Size = new System.Drawing.Size(156, 26);
+            this.броевиToolStripMenuItem4.Text = "8 Броеви";
+            this.броевиToolStripMenuItem4.Click += new System.EventHandler(this.броевиToolStripMenuItem4_Click);
+            // 
+            // броевиToolStripMenuItem5
+            // 
+            this.броевиToolStripMenuItem5.Name = "броевиToolStripMenuItem5";
+            this.броевиToolStripMenuItem5.Size = new System.Drawing.Size(156, 26);
+            this.броевиToolStripMenuItem5.Text = "9 Броеви";
+            this.броевиToolStripMenuItem5.Click += new System.EventHandler(this.броевиToolStripMenuItem5_Click);
+            // 
+            // броевиToolStripMenuItem6
+            // 
+            this.броевиToolStripMenuItem6.Name = "броевиToolStripMenuItem6";
+            this.броевиToolStripMenuItem6.Size = new System.Drawing.Size(156, 26);
+            this.броевиToolStripMenuItem6.Text = "10 Броеви";
+            this.броевиToolStripMenuItem6.Click += new System.EventHandler(this.броевиToolStripMenuItem6_Click);
+            // 
+            // броевиToolStripMenuItem7
+            // 
+            this.броевиToolStripMenuItem7.Name = "броевиToolStripMenuItem7";
+            this.броевиToolStripMenuItem7.Size = new System.Drawing.Size(156, 26);
+            this.броевиToolStripMenuItem7.Text = "11 Броеви";
+            this.броевиToolStripMenuItem7.Click += new System.EventHandler(this.броевиToolStripMenuItem7_Click);
+            // 
+            // броевиToolStripMenuItem8
+            // 
+            this.броевиToolStripMenuItem8.Name = "броевиToolStripMenuItem8";
+            this.броевиToolStripMenuItem8.Size = new System.Drawing.Size(156, 26);
+            this.броевиToolStripMenuItem8.Text = "12 Броеви";
+            this.броевиToolStripMenuItem8.Click += new System.EventHandler(this.броевиToolStripMenuItem8_Click);
+            // 
+            // затвориToolStripMenuItem
+            // 
+            this.затвориToolStripMenuItem.Name = "затвориToolStripMenuItem";
+            this.затвориToolStripMenuItem.Size = new System.Drawing.Size(78, 24);
+            this.затвориToolStripMenuItem.Text = "Затвори";
+            this.затвориToolStripMenuItem.Click += new System.EventHandler(this.затвориToolStripMenuItem_Click);
             // 
             // button72
             // 
@@ -1593,10 +1778,10 @@
             this.flowLayoutPanel1.Controls.Add(this.button78);
             this.flowLayoutPanel1.Controls.Add(this.button79);
             this.flowLayoutPanel1.Controls.Add(this.button80);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(9, 40);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(62, 77);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(410, 376);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(410, 393);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
             // button73
@@ -1754,21 +1939,619 @@
             // flowLayoutPanel2
             // 
             this.flowLayoutPanel2.BackColor = System.Drawing.Color.Transparent;
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(34, 416);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(75, 453);
             this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(0);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(349, 292);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(349, 342);
             this.flowLayoutPanel2.TabIndex = 6;
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(671, 80);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(36, 17);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "2 : 0";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Wheat;
+            this.label2.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.label2.Location = new System.Drawing.Point(64, 43);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(305, 17);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "Изберете броеви (мин=4) за учество во игра";
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.panel1.Controls.Add(this.label11);
+            this.panel1.Controls.Add(this.d0);
+            this.panel1.Controls.Add(this.label6);
+            this.panel1.Controls.Add(this.isp);
+            this.panel1.Controls.Add(this.pogodoci);
+            this.panel1.Controls.Add(this.izbrani);
+            this.panel1.Controls.Add(this.k12);
+            this.panel1.Controls.Add(this.k11);
+            this.panel1.Controls.Add(this.k10);
+            this.panel1.Controls.Add(this.k9);
+            this.panel1.Controls.Add(this.k8);
+            this.panel1.Controls.Add(this.k7);
+            this.panel1.Controls.Add(this.k6);
+            this.panel1.Controls.Add(this.k4);
+            this.panel1.Controls.Add(this.k5);
+            this.panel1.Controls.Add(this.d12);
+            this.panel1.Controls.Add(this.d11);
+            this.panel1.Controls.Add(this.label25);
+            this.panel1.Controls.Add(this.d10);
+            this.panel1.Controls.Add(this.d9);
+            this.panel1.Controls.Add(this.d8);
+            this.panel1.Controls.Add(this.d7);
+            this.panel1.Controls.Add(this.d6);
+            this.panel1.Controls.Add(this.d5);
+            this.panel1.Controls.Add(this.d4);
+            this.panel1.Controls.Add(this.k0);
+            this.panel1.Controls.Add(this.p12);
+            this.panel1.Controls.Add(this.p11);
+            this.panel1.Controls.Add(this.p10);
+            this.panel1.Controls.Add(this.p9);
+            this.panel1.Controls.Add(this.p8);
+            this.panel1.Controls.Add(this.p7);
+            this.panel1.Controls.Add(this.p6);
+            this.panel1.Controls.Add(this.p5);
+            this.panel1.Controls.Add(this.p4);
+            this.panel1.Controls.Add(this.p0);
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Location = new System.Drawing.Point(666, 209);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(445, 544);
+            this.panel1.TabIndex = 11;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.White;
+            this.label11.Location = new System.Drawing.Point(281, 357);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(92, 25);
+            this.label11.TabIndex = 38;
+            this.label11.Text = "Уплата:\r\n";
+            // 
+            // d0
+            // 
+            this.d0.AutoSize = true;
+            this.d0.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.d0.ForeColor = System.Drawing.Color.White;
+            this.d0.Location = new System.Drawing.Point(321, 54);
+            this.d0.Name = "d0";
+            this.d0.Size = new System.Drawing.Size(0, 25);
+            this.d0.TabIndex = 37;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(51, 409);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(77, 25);
+            this.label6.TabIndex = 36;
+            this.label6.Text = "Бонус:";
+            // 
+            // isp
+            // 
+            this.isp.AutoSize = true;
+            this.isp.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.isp.ForeColor = System.Drawing.Color.White;
+            this.isp.Location = new System.Drawing.Point(50, 457);
+            this.isp.Name = "isp";
+            this.isp.Size = new System.Drawing.Size(176, 25);
+            this.isp.TabIndex = 35;
+            this.isp.Text = "Вкупна добивка:";
+            // 
+            // pogodoci
+            // 
+            this.pogodoci.AutoSize = true;
+            this.pogodoci.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pogodoci.ForeColor = System.Drawing.Color.White;
+            this.pogodoci.Location = new System.Drawing.Point(50, 384);
+            this.pogodoci.Name = "pogodoci";
+            this.pogodoci.Size = new System.Drawing.Size(123, 25);
+            this.pogodoci.TabIndex = 34;
+            this.pogodoci.Text = "Погодоци: ";
+            // 
+            // izbrani
+            // 
+            this.izbrani.AutoSize = true;
+            this.izbrani.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.izbrani.ForeColor = System.Drawing.Color.White;
+            this.izbrani.Location = new System.Drawing.Point(50, 359);
+            this.izbrani.Name = "izbrani";
+            this.izbrani.Size = new System.Drawing.Size(111, 25);
+            this.izbrani.TabIndex = 33;
+            this.izbrani.Text = "Избрани: ";
+            // 
+            // k12
+            // 
+            this.k12.AutoSize = true;
+            this.k12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.k12.ForeColor = System.Drawing.Color.White;
+            this.k12.Location = new System.Drawing.Point(191, 314);
+            this.k12.Name = "k12";
+            this.k12.Size = new System.Drawing.Size(65, 25);
+            this.k12.TabIndex = 32;
+            this.k12.Text = "100x ";
+            // 
+            // k11
+            // 
+            this.k11.AutoSize = true;
+            this.k11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.k11.ForeColor = System.Drawing.Color.White;
+            this.k11.Location = new System.Drawing.Point(203, 284);
+            this.k11.Name = "k11";
+            this.k11.Size = new System.Drawing.Size(53, 25);
+            this.k11.TabIndex = 31;
+            this.k11.Text = "80x ";
+            // 
+            // k10
+            // 
+            this.k10.AutoSize = true;
+            this.k10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.k10.ForeColor = System.Drawing.Color.White;
+            this.k10.Location = new System.Drawing.Point(203, 257);
+            this.k10.Name = "k10";
+            this.k10.Size = new System.Drawing.Size(53, 25);
+            this.k10.TabIndex = 30;
+            this.k10.Text = "50x ";
+            // 
+            // k9
+            // 
+            this.k9.AutoSize = true;
+            this.k9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.k9.ForeColor = System.Drawing.Color.White;
+            this.k9.Location = new System.Drawing.Point(203, 226);
+            this.k9.Name = "k9";
+            this.k9.Size = new System.Drawing.Size(53, 25);
+            this.k9.TabIndex = 29;
+            this.k9.Text = "30x ";
+            // 
+            // k8
+            // 
+            this.k8.AutoSize = true;
+            this.k8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.k8.ForeColor = System.Drawing.Color.White;
+            this.k8.Location = new System.Drawing.Point(203, 199);
+            this.k8.Name = "k8";
+            this.k8.Size = new System.Drawing.Size(53, 25);
+            this.k8.TabIndex = 28;
+            this.k8.Text = "20x ";
+            // 
+            // k7
+            // 
+            this.k7.AutoSize = true;
+            this.k7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.k7.ForeColor = System.Drawing.Color.White;
+            this.k7.Location = new System.Drawing.Point(203, 171);
+            this.k7.Name = "k7";
+            this.k7.Size = new System.Drawing.Size(53, 25);
+            this.k7.TabIndex = 27;
+            this.k7.Text = "10x ";
+            // 
+            // k6
+            // 
+            this.k6.AutoSize = true;
+            this.k6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.k6.ForeColor = System.Drawing.Color.White;
+            this.k6.Location = new System.Drawing.Point(217, 143);
+            this.k6.Name = "k6";
+            this.k6.Size = new System.Drawing.Size(41, 25);
+            this.k6.TabIndex = 26;
+            this.k6.Text = "7x ";
+            // 
+            // k4
+            // 
+            this.k4.AutoSize = true;
+            this.k4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.k4.ForeColor = System.Drawing.Color.White;
+            this.k4.Location = new System.Drawing.Point(216, 83);
+            this.k4.Name = "k4";
+            this.k4.Size = new System.Drawing.Size(53, 25);
+            this.k4.TabIndex = 25;
+            this.k4.Text = "2.5x";
+            // 
+            // k5
+            // 
+            this.k5.AutoSize = true;
+            this.k5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.k5.ForeColor = System.Drawing.Color.White;
+            this.k5.Location = new System.Drawing.Point(218, 113);
+            this.k5.Name = "k5";
+            this.k5.Size = new System.Drawing.Size(35, 25);
+            this.k5.TabIndex = 24;
+            this.k5.Text = "4x";
+            // 
+            // d12
+            // 
+            this.d12.AutoSize = true;
+            this.d12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.d12.ForeColor = System.Drawing.Color.White;
+            this.d12.Location = new System.Drawing.Point(327, 314);
+            this.d12.Name = "d12";
+            this.d12.Size = new System.Drawing.Size(0, 25);
+            this.d12.TabIndex = 23;
+            // 
+            // d11
+            // 
+            this.d11.AutoSize = true;
+            this.d11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.d11.ForeColor = System.Drawing.Color.White;
+            this.d11.Location = new System.Drawing.Point(327, 285);
+            this.d11.Name = "d11";
+            this.d11.Size = new System.Drawing.Size(0, 25);
+            this.d11.TabIndex = 22;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.ForeColor = System.Drawing.Color.White;
+            this.label25.Location = new System.Drawing.Point(167, 17);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(143, 25);
+            this.label25.TabIndex = 21;
+            this.label25.Text = "Коефициент";
+            // 
+            // d10
+            // 
+            this.d10.AutoSize = true;
+            this.d10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.d10.ForeColor = System.Drawing.Color.White;
+            this.d10.Location = new System.Drawing.Point(327, 258);
+            this.d10.Name = "d10";
+            this.d10.Size = new System.Drawing.Size(0, 25);
+            this.d10.TabIndex = 20;
+            // 
+            // d9
+            // 
+            this.d9.AutoSize = true;
+            this.d9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.d9.ForeColor = System.Drawing.Color.White;
+            this.d9.Location = new System.Drawing.Point(327, 230);
+            this.d9.Name = "d9";
+            this.d9.Size = new System.Drawing.Size(0, 25);
+            this.d9.TabIndex = 19;
+            // 
+            // d8
+            // 
+            this.d8.AutoSize = true;
+            this.d8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.d8.ForeColor = System.Drawing.Color.White;
+            this.d8.Location = new System.Drawing.Point(329, 200);
+            this.d8.Name = "d8";
+            this.d8.Size = new System.Drawing.Size(0, 25);
+            this.d8.TabIndex = 18;
+            // 
+            // d7
+            // 
+            this.d7.AutoSize = true;
+            this.d7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.d7.ForeColor = System.Drawing.Color.White;
+            this.d7.Location = new System.Drawing.Point(328, 171);
+            this.d7.Name = "d7";
+            this.d7.Size = new System.Drawing.Size(0, 25);
+            this.d7.TabIndex = 17;
+            // 
+            // d6
+            // 
+            this.d6.AutoSize = true;
+            this.d6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.d6.ForeColor = System.Drawing.Color.White;
+            this.d6.Location = new System.Drawing.Point(327, 142);
+            this.d6.Name = "d6";
+            this.d6.Size = new System.Drawing.Size(0, 25);
+            this.d6.TabIndex = 16;
+            // 
+            // d5
+            // 
+            this.d5.AutoSize = true;
+            this.d5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.d5.ForeColor = System.Drawing.Color.White;
+            this.d5.Location = new System.Drawing.Point(327, 114);
+            this.d5.Name = "d5";
+            this.d5.Size = new System.Drawing.Size(0, 25);
+            this.d5.TabIndex = 15;
+            // 
+            // d4
+            // 
+            this.d4.AutoSize = true;
+            this.d4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.d4.ForeColor = System.Drawing.Color.White;
+            this.d4.Location = new System.Drawing.Point(327, 83);
+            this.d4.Name = "d4";
+            this.d4.Size = new System.Drawing.Size(0, 25);
+            this.d4.TabIndex = 14;
+            // 
+            // k0
+            // 
+            this.k0.AutoSize = true;
+            this.k0.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.k0.ForeColor = System.Drawing.Color.White;
+            this.k0.Location = new System.Drawing.Point(215, 54);
+            this.k0.Name = "k0";
+            this.k0.Size = new System.Drawing.Size(59, 25);
+            this.k0.TabIndex = 13;
+            this.k0.Text = "0.4x ";
+            // 
+            // p12
+            // 
+            this.p12.AutoSize = true;
+            this.p12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.p12.ForeColor = System.Drawing.Color.White;
+            this.p12.Location = new System.Drawing.Point(50, 314);
+            this.p12.Name = "p12";
+            this.p12.Size = new System.Drawing.Size(36, 25);
+            this.p12.TabIndex = 11;
+            this.p12.Text = "12";
+            // 
+            // p11
+            // 
+            this.p11.AutoSize = true;
+            this.p11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.p11.ForeColor = System.Drawing.Color.White;
+            this.p11.Location = new System.Drawing.Point(51, 284);
+            this.p11.Name = "p11";
+            this.p11.Size = new System.Drawing.Size(36, 25);
+            this.p11.TabIndex = 10;
+            this.p11.Text = "11";
+            // 
+            // p10
+            // 
+            this.p10.AutoSize = true;
+            this.p10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.p10.ForeColor = System.Drawing.Color.White;
+            this.p10.Location = new System.Drawing.Point(51, 255);
+            this.p10.Name = "p10";
+            this.p10.Size = new System.Drawing.Size(36, 25);
+            this.p10.TabIndex = 9;
+            this.p10.Text = "10";
+            // 
+            // p9
+            // 
+            this.p9.AutoSize = true;
+            this.p9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.p9.ForeColor = System.Drawing.Color.White;
+            this.p9.Location = new System.Drawing.Point(63, 226);
+            this.p9.Name = "p9";
+            this.p9.Size = new System.Drawing.Size(24, 25);
+            this.p9.TabIndex = 8;
+            this.p9.Text = "9";
+            // 
+            // p8
+            // 
+            this.p8.AutoSize = true;
+            this.p8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.p8.ForeColor = System.Drawing.Color.White;
+            this.p8.Location = new System.Drawing.Point(63, 199);
+            this.p8.Name = "p8";
+            this.p8.Size = new System.Drawing.Size(24, 25);
+            this.p8.TabIndex = 7;
+            this.p8.Text = "8";
+            // 
+            // p7
+            // 
+            this.p7.AutoSize = true;
+            this.p7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.p7.ForeColor = System.Drawing.Color.White;
+            this.p7.Location = new System.Drawing.Point(63, 171);
+            this.p7.Name = "p7";
+            this.p7.Size = new System.Drawing.Size(24, 25);
+            this.p7.TabIndex = 6;
+            this.p7.Text = "7";
+            // 
+            // p6
+            // 
+            this.p6.AutoSize = true;
+            this.p6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.p6.ForeColor = System.Drawing.Color.White;
+            this.p6.Location = new System.Drawing.Point(63, 144);
+            this.p6.Name = "p6";
+            this.p6.Size = new System.Drawing.Size(24, 25);
+            this.p6.TabIndex = 5;
+            this.p6.Text = "6";
+            // 
+            // p5
+            // 
+            this.p5.AutoSize = true;
+            this.p5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.p5.ForeColor = System.Drawing.Color.White;
+            this.p5.Location = new System.Drawing.Point(63, 113);
+            this.p5.Name = "p5";
+            this.p5.Size = new System.Drawing.Size(24, 25);
+            this.p5.TabIndex = 4;
+            this.p5.Text = "5";
+            // 
+            // p4
+            // 
+            this.p4.AutoSize = true;
+            this.p4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.p4.ForeColor = System.Drawing.Color.White;
+            this.p4.Location = new System.Drawing.Point(63, 83);
+            this.p4.Name = "p4";
+            this.p4.Size = new System.Drawing.Size(24, 25);
+            this.p4.TabIndex = 3;
+            this.p4.Text = "4";
+            // 
+            // p0
+            // 
+            this.p0.AutoSize = true;
+            this.p0.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.p0.ForeColor = System.Drawing.Color.White;
+            this.p0.Location = new System.Drawing.Point(63, 54);
+            this.p0.Name = "p0";
+            this.p0.Size = new System.Drawing.Size(24, 25);
+            this.p0.TabIndex = 2;
+            this.p0.Text = "0";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(316, 17);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(99, 25);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "Добивка";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(40, 17);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(110, 25);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Погодоци";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label7.Location = new System.Drawing.Point(432, 477);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(195, 18);
+            this.label7.TabIndex = 12;
+            this.label7.Text = "Внеси или дополни кредит";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(435, 504);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(119, 22);
+            this.textBox1.TabIndex = 13;
             // 
             // button81
             // 
-            this.button81.Location = new System.Drawing.Point(560, 517);
+            this.button81.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button81.Location = new System.Drawing.Point(568, 502);
             this.button81.Name = "button81";
-            this.button81.Size = new System.Drawing.Size(75, 23);
-            this.button81.TabIndex = 7;
-            this.button81.Text = "button81";
+            this.button81.Size = new System.Drawing.Size(79, 31);
+            this.button81.TabIndex = 14;
+            this.button81.Text = "Внеси";
             this.button81.UseVisualStyleBackColor = true;
-            this.button81.Click += new System.EventHandler(this.button81_Click);
+            this.button81.Click += new System.EventHandler(this.button81_Click_1);
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(437, 655);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 22);
+            this.textBox2.TabIndex = 15;
+            // 
+            // button82
+            // 
+            this.button82.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button82.Location = new System.Drawing.Point(543, 655);
+            this.button82.Name = "button82";
+            this.button82.Size = new System.Drawing.Size(83, 26);
+            this.button82.TabIndex = 16;
+            this.button82.Text = "Подигни";
+            this.button82.UseVisualStyleBackColor = true;
+            this.button82.Click += new System.EventHandler(this.button82_Click);
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(435, 567);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(128, 22);
+            this.textBox3.TabIndex = 17;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label8.Location = new System.Drawing.Point(434, 542);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(123, 18);
+            this.label8.TabIndex = 18;
+            this.label8.Text = "Износ на уплата";
+            // 
+            // button83
+            // 
+            this.button83.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button83.Location = new System.Drawing.Point(569, 565);
+            this.button83.Name = "button83";
+            this.button83.Size = new System.Drawing.Size(83, 26);
+            this.button83.TabIndex = 19;
+            this.button83.Text = "Играј";
+            this.button83.UseVisualStyleBackColor = true;
+            this.button83.Click += new System.EventHandler(this.button83_Click);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(449, 595);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(0, 17);
+            this.label9.TabIndex = 21;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Firebrick;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.Yellow;
+            this.label10.Location = new System.Drawing.Point(437, 620);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(100, 24);
+            this.label10.TabIndex = 22;
+            this.label10.Text = "Кредит 0";
+            // 
+            // button84
+            // 
+            this.button84.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button84.Location = new System.Drawing.Point(570, 594);
+            this.button84.Name = "button84";
+            this.button84.Size = new System.Drawing.Size(83, 27);
+            this.button84.TabIndex = 23;
+            this.button84.Text = "Поништи";
+            this.button84.UseVisualStyleBackColor = true;
+            this.button84.Click += new System.EventHandler(this.button84_Click);
+            // 
+            // button85
+            // 
+            this.button85.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button85.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button85.ForeColor = System.Drawing.Color.Red;
+            this.button85.Location = new System.Drawing.Point(441, 695);
+            this.button85.Name = "button85";
+            this.button85.Size = new System.Drawing.Size(185, 61);
+            this.button85.TabIndex = 24;
+            this.button85.Text = "Брза игра";
+            this.button85.UseVisualStyleBackColor = true;
+            this.button85.Click += new System.EventHandler(this.button85_Click);
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(670, 52);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(184, 17);
+            this.label12.TabIndex = 25;
+            this.label12.Text = "Наредно извлекување за: ";
             // 
             // Кено
             // 
@@ -1777,8 +2560,23 @@
             this.BackColor = System.Drawing.Color.Wheat;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(969, 717);
+            this.ClientSize = new System.Drawing.Size(1180, 804);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.button85);
+            this.Controls.Add(this.button84);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.button83);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.button82);
+            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.button81);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.flowLayoutPanel2);
             this.Controls.Add(this.flowLayoutPanel3);
             this.Controls.Add(this.flowLayoutPanel1);
@@ -1787,8 +2585,16 @@
             this.Name = "Кено";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Кено";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Кено_FormClosing);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Кено_FormClosed);
+            this.Load += new System.EventHandler(this.Кено_Load);
+            this.Leave += new System.EventHandler(this.Кено_Leave);
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.flowLayoutPanel1.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1881,7 +2687,75 @@
         private System.Windows.Forms.Button button79;
         private System.Windows.Forms.Button button80;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label d10;
+        private System.Windows.Forms.Label d9;
+        private System.Windows.Forms.Label d8;
+        private System.Windows.Forms.Label d7;
+        private System.Windows.Forms.Label d6;
+        private System.Windows.Forms.Label d5;
+        private System.Windows.Forms.Label d4;
+        private System.Windows.Forms.Label k0;
+        private System.Windows.Forms.Label p12;
+        private System.Windows.Forms.Label p11;
+        private System.Windows.Forms.Label p10;
+        private System.Windows.Forms.Label p9;
+        private System.Windows.Forms.Label p8;
+        private System.Windows.Forms.Label p7;
+        private System.Windows.Forms.Label p6;
+        private System.Windows.Forms.Label p5;
+        private System.Windows.Forms.Label p4;
+        private System.Windows.Forms.Label p0;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label d11;
+        private System.Windows.Forms.Label d12;
+        private System.Windows.Forms.Label k12;
+        private System.Windows.Forms.Label k11;
+        private System.Windows.Forms.Label k10;
+        private System.Windows.Forms.Label k9;
+        private System.Windows.Forms.Label k8;
+        private System.Windows.Forms.Label k7;
+        private System.Windows.Forms.Label k6;
+        private System.Windows.Forms.Label k4;
+        private System.Windows.Forms.Label k5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label isp;
+        private System.Windows.Forms.Label pogodoci;
+        private System.Windows.Forms.Label izbrani;
+        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button button81;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button button82;
+        private System.Windows.Forms.Button button83;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Button button84;
+        private System.Windows.Forms.Label d0;
+        private System.Windows.Forms.Button button85;
+        private System.Windows.Forms.ToolStripMenuItem инфоToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem историјаНаИграњаToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem избериСлучајноToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem броевиToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem броевиToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem броевиToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem броевиToolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem броевиToolStripMenuItem4;
+        private System.Windows.Forms.ToolStripMenuItem броевиToolStripMenuItem5;
+        private System.Windows.Forms.ToolStripMenuItem броевиToolStripMenuItem6;
+        private System.Windows.Forms.ToolStripMenuItem броевиToolStripMenuItem7;
+        private System.Windows.Forms.ToolStripMenuItem броевиToolStripMenuItem8;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.ToolStripMenuItem nova;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.ToolStripMenuItem затвориToolStripMenuItem;
     }
 }
 
